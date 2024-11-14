@@ -1,3 +1,4 @@
+print('Hello world')
 # "1st program"
 print(9 ** 0.5 * 5)
 
@@ -10,8 +11,8 @@ print(1234 // 10 % 100 + 5678 // 10 % 100)
 # "4th program"
 a = 13.42
 b = 42.13
-a1 = int(a)
-b1 = int(b)
-a2 = int((a - a1) * 100)
-b2 = int((b - b1) * 100)
-print(a1 == b2 or b1 == b2)
+a1 = int(a) # 13
+b1 = int(b) # 42
+a2 = int((a - a1) * 100) # 41
+b2 = int((b - b1) * 100) # 13
+print(a1 == b2 or b1 == a2)
