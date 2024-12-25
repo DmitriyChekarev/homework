@@ -7,8 +7,8 @@ class House:
         return self.number_of_floors
 
     def __str__(self):
-        a1 = str(f'Название: {self.name}, кол-во этажей: {self.number_of_floors}')
-        return a1
+        return f'Название: {self.name}, кол-во этажей: {self.number_of_floors}'
+
 
 h1 = House('ЖК Эльбрус', 10)
 h2 = House('Акация', 20)
