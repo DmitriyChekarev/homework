@@ -12,7 +12,7 @@ print('В команде %(name)s кода участников: %(team)s!' % {'
 print('Итого сегодня в командах участников: %s и %x!' % (team1_num, team2_num))
 
 print('Команда {} данных решила задач: {}!' .format('Волшебники', score_2))
-print('{name} данных решили задачи за {time} c !'.format(name='Волшебники', time=team1_time))
+print('{name} данных решили задачи за {time} c!'.format(name='Волшебники', time=team1_time))
 
 print(f'Команды решили {score_1} и {score_2} задач.')
 
