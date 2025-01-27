@@ -10,5 +10,7 @@ def get_multiplied_digits(number):
     else:
         return first
 
-num = input('Введите целое число: ')
-print(f'Произведение цифр числа {num} :', get_multiplied_digits(num))
+result = get_multiplied_digits(40203)
+print(result)
+result2 = get_multiplied_digits(402030)
+print(result2)
