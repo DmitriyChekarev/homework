@@ -75,8 +75,8 @@ os.makedirs().
 скопировать её абсолютный путь.
     Далее используется метод chdir(), в который вставляется этот абсолютный путь. После выполнения команды и вывода в 
 консоль, можно увидеть, что рабочая директория изменена на «module_7».'''
-os.chdir(r'/module_7_Working_with_files'
-         r'\module_7_5_Working_with_files')
+os.chdir(r'/7_Rabota_s_faylami'
+         r'\7_5_Rabota_s_faylami')
 print('Текущая директория:', os.getcwd())
 
 
